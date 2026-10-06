@@ -456,6 +456,10 @@ export interface FuturesTrade {
   business_type?: string;
   trade_turnover?: string | number;
   symbol?: string;
+  /** Whether the trade involved an RPI order. USDT-M uses snake_case. */
+  is_rpi_trade?: boolean | number | string;
+  /** Whether the trade is an RPI trade. Coin-M uses the hyphenated name. */
+  'is-rpi-trade'?: boolean | number | string;
 }
 
 /** Last trade tick from market/trade. Payload in "tick". */

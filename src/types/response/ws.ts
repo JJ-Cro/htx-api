@@ -61,3 +61,27 @@ export interface WsSpotFullDepthTick {
   version?: number;
   ts?: number;
 }
+
+/** Tick from USDT-M `market.$contract_code.full_depth.$type` (includes RPI orders) */
+export interface WsLinearSwapFullDepthTick {
+  mrid?: number;
+  id?: number;
+  bids?: [number, number][];
+  asks?: [number, number][];
+  ts?: number;
+  version?: number;
+  ch?: string;
+}
+
+/** Trade from USDT-M `market.$contract_code.trade.detail` (sub and req) */
+export interface WsLinearSwapTradeDetail {
+  id?: number;
+  price?: number | string;
+  amount?: number | string;
+  direction?: string;
+  ts?: number;
+  quantity?: number | string;
+  trade_turnover?: number | string;
+  /** Whether the trade involved an RPI order */
+  is_rpi_trade?: boolean | number | string;
+}

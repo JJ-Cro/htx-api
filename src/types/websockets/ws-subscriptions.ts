@@ -32,6 +32,7 @@ export const WS_SPOT_PRIVATE_TOPICS = [
 export const WS_DERIVATIVES_PUBLIC_TOPICS = [
   'market.$contract_code.kline.$period',
   'market.$contract_code.depth.$type',
+  'market.$contract_code.full_depth.$type',
   'market.$contract_code.depth.size_${size}.high_freq',
   'market.$contract_code.detail',
   'market.$contract_code.bbo',
