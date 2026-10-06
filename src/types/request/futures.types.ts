@@ -114,8 +114,8 @@ export type FuturesTrailingOrderPriceType =
 /** V5 order type */
 export type FuturesV5OrderType = 'market' | 'limit' | 'post_only';
 
-/** Time in force */
-export type FuturesTimeInForce = 'fok' | 'ioc' | 'gtc';
+/** Time in force. `rpi` places an RPI order. */
+export type FuturesTimeInForce = 'fok' | 'ioc' | 'gtc' | 'rpi';
 
 /** Trigger price type */
 export type FuturesTriggerPriceType = 'last' | 'market';

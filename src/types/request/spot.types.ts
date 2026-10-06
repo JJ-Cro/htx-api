@@ -240,6 +240,8 @@ export interface SpotGetOrderHistory48hReq {
   direct?: 'prev' | 'next';
   /** Items per response [10-1000]. Default 100 */
   size?: number;
+  /** created-at: order creation time. updated-at: last update time. */
+  'sort-by'?: 'created-at' | 'updated-at';
 }
 
 /** Req for GET /v1/order/matchresults (search match results) */
