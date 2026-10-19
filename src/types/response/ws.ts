@@ -16,6 +16,8 @@ export interface WsV5AccountDetail {
   currency: string;
   equity?: string;
   available?: string;
+  /** Isolated-margin available for this currency. "0" when there is no isolated position. */
+  isolated_available?: string;
   available_margin?: string;
   profit_unreal?: string;
   initial_margin?: string;

@@ -1076,6 +1076,11 @@ export class SpotClient extends BaseRestClient {
    * Create Withdraw Request
    *
    * Create withdraw to address in your withdraw list. Parent user only. Withdraw permission. Rate: 20/2s.
+   *
+   * `api-not-support-temp-addr` means this address is not enabled for API withdrawal
+   * (Verification-exempt API checkbox, or the key's custom address list). Web
+   * whitelist status `white` on GET /v2/account/withdraw/address does not by itself
+   * enable the API withdraw path.
    */
   submitWithdraw(
     params: SpotWithdrawCreateReq,

@@ -1818,6 +1818,10 @@ export interface FuturesV5Bill {
   id: string;
   contract_code: string;
   margin_mode: string;
+  /**
+   * Financial type code.
+   * 160: dividend settlement income. 161: dividend settlement expense.
+   */
   type: string;
   currency: string;
   amount: string;
@@ -2052,6 +2056,21 @@ export interface FuturesV5RiskLimitTierEntry {
 /**
  * USDT Margined Futures Multi Asset - Basic Information (v5 API)
  */
+
+/** Funding fee type on GET /v5/market/funding_rate_history */
+export type FuturesV5FundingFeeType = 'normal' | 'dividend_settlement';
+
+/** Historical funding rate item from GET /v5/market/funding_rate_history */
+export interface FuturesV5FundingRateHistory {
+  id: string;
+  /** Perpetual (e.g. BTC-USDT) or delivery (e.g. BTC-USDT-210625) */
+  contract_code: string;
+  funding_rate: string;
+  /** Funding time, unix ms */
+  funding_time: string;
+  /** `normal`: normal funding fee. `dividend_settlement`: dividend settlement. */
+  funding_fee_type: FuturesV5FundingFeeType;
+}
 
 /** Risk limit entry from GET /v5/market/risk/limit */
 export interface FuturesV5MarketRiskLimitEntry {
