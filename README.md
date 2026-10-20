@@ -45,6 +45,7 @@ Complete & robust JavaScript & Node.js SDK for the HTX REST APIs and WebSockets:
 ## Table of Contents
 
 - [Installation](#installation)
+- [Why not raw ws?](#why-not-raw-ws)
 - [Examples](#examples)
 - [Issues & Discussion](#issues--discussion)
 - [Related Projects](#related-projects)
@@ -70,9 +71,23 @@ Complete & robust JavaScript & Node.js SDK for the HTX REST APIs and WebSockets:
 
 ## Installation
 
-`npm install --save @siebly/htx-api`
+```bash
+npm install --save @siebly/htx-api
+```
+
+Install **`@siebly/htx-api`**. That is the package name for this SDK. The unscoped npm package `htx-api` is a different package (a stale 0.0.9 pre-release).
 
 Node.js usage requires Node 22.13.0 or newer. Browser applications should follow the public-data and credential-safety guidance below.
+
+## Why not raw ws?
+
+A raw `ws` socket still has to gzip-decode HTX frames, answer ping/pong, sign private auth, reconnect, and resubscribe. `WebsocketClient` does that and emits typed events.
+
+```javascript
+import { WebsocketClient, WS_KEY_MAP } from '@siebly/htx-api';
+const ws = new WebsocketClient();
+ws.subscribe('market.btcusdt.ticker', WS_KEY_MAP.spotPublic);
+```
 
 ## Examples
 

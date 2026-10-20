@@ -206,6 +206,7 @@ import type {
   FuturesV5CancelBatchOrdersReq,
   FuturesV5CancelOrderReq,
   FuturesV5ClosePositionReq,
+  FuturesV5FundingRateHistoryReq,
   FuturesV5LeverListReq,
   FuturesV5MarketRiskLimitReq,
   FuturesV5OpenOrdersReq,
@@ -392,6 +393,7 @@ import type {
   FuturesV5CancelAlgoOrderResp,
   FuturesV5ClosePositionResp,
   FuturesV5FeeDeductionCurrency,
+  FuturesV5FundingRateHistory,
   FuturesV5LeverListEntry,
   FuturesV5MarketRiskLimitEntry,
   FuturesV5MultiAssetsMarginResp,
@@ -2698,6 +2700,18 @@ export class FuturesClient extends BaseRestClient {
    * USDT Margined Futures Multi Asset - Basic Information (v5 API)
    *
    */
+
+  /**
+   * Get Funding Rate History
+   *
+   * Historical funding rates, including `funding_fee_type`. No signature.
+   * Rate limit: 240/3s per IP, shared with other non-market public requests.
+   */
+  getMultiAssetFundingRateHistory(
+    params: FuturesV5FundingRateHistoryReq,
+  ): Promise<FuturesAPISuccessResponse<FuturesV5FundingRateHistory[]>> {
+    return this.get('/v5/market/funding_rate_history', params);
+  }
 
   /**
    * Get Futures Risk Limit (Market)

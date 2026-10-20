@@ -1489,7 +1489,10 @@ export interface FuturesV5BillsReq {
   contract_code?: string;
   /** cross: Cross margin; isolated: Isolated margin */
   margin_mode?: FuturesMarginMode;
-  /** Financial type; comma-separated for multiple. e.g. 3,4,5,6 */
+  /**
+   * Financial type code. Comma-separated for multiple, e.g. 3,4,30,160.
+   * 160: dividend settlement income. 161: dividend settlement expense.
+   */
   type?: string;
   /** Start time (ms). Default: now - 48h */
   start_time?: string | number;
@@ -1746,6 +1749,22 @@ export interface FuturesV5AlgoOrderHistoryReq {
 /**
  * USDT Margined Futures Multi Asset - Basic Information (v5 API)
  */
+
+/** Req for GET /v5/market/funding_rate_history. Historical funding rates. No signature. */
+export interface FuturesV5FundingRateHistoryReq {
+  /** Perpetual (e.g. BTC-USDT) or delivery (e.g. BTC-USDT-210625) */
+  contract_code: string;
+  /** Start time (ms). Default: now - 48h */
+  start_time?: string | number;
+  /** End time (ms). Default: now */
+  end_time?: string | number;
+  /** Query id. Default 0 */
+  from?: string | number;
+  /** Page size. Default 10, max 100 */
+  limit?: number;
+  /** prev | next */
+  direct?: FuturesDirect;
+}
 
 /** Req for GET /v5/market/risk/limit. Get futures risk limit table. */
 export interface FuturesV5MarketRiskLimitReq {

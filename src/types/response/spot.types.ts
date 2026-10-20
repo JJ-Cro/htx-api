@@ -874,6 +874,19 @@ export interface SpotWithdrawQuota {
   chains: SpotWithdrawQuotaChain[];
 }
 
+/**
+ * Withdraw address status from GET /v2/account/withdraw/address.
+ * `normal`: common address.
+ * `white`: whitelist in effect.
+ * `white-delaying`: whitelist waiting out its delay.
+ * `processing`: pending 2FA or risk-control checks.
+ */
+export type SpotWithdrawAddressStatus =
+  | 'normal'
+  | 'white'
+  | 'white-delaying'
+  | 'processing';
+
 /** Withdraw address item from GET /v2/account/withdraw/address */
 export interface SpotWithdrawAddress {
   currency: string;
@@ -881,7 +894,8 @@ export interface SpotWithdrawAddress {
   note: string;
   addressTag?: string;
   address: string;
-  status: string;
+  /** See {@link SpotWithdrawAddressStatus}. */
+  status: SpotWithdrawAddressStatus;
 }
 
 /** Deposit/withdraw record from GET /v1/query/deposit-withdraw or GET /v1/query/withdraw/client-order-id */
