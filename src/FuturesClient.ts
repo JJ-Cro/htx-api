@@ -934,7 +934,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Account Info (Isolated)
    *
    * User's isolated margin account info. Signature required. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAccountBalance. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedAccountInfo(params?: {
     contract_code?: string;
@@ -948,7 +947,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Account Info (Cross)
    *
    * User's cross margin account info. Signature required. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAccountBalance. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossAccountInfo(params?: {
     margin_account?: string;
@@ -962,7 +960,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Position Info (Isolated)
    *
    * User's isolated margin positions. Signature required. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetPositions. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedPositions(params?: {
     contract_code?: string;
@@ -976,7 +973,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Position Info (Cross)
    *
    * User's cross margin positions. contract_code preferred when all filled. Signature required. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetPositions. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossPositions(
     params?: FuturesGetCrossPositionsReq,
@@ -990,7 +986,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Assets And Positions (Isolated)
    *
    * Combined account + positions for isolated margin. Signature required. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAccountBalance and getMultiAssetPositions. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedAccountFull(params: {
     contract_code: string;
@@ -1004,7 +999,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Assets And Positions (Cross)
    *
    * Combined account + positions for cross margin. Signature required. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAccountBalance and getMultiAssetPositions. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossAccountFull(params: {
     margin_account: string;
@@ -1153,7 +1147,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Account Financial Records
    *
    * Financial records (transfers, fees, funding, etc.). Supports cross and isolated. Signature required. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetBills. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapFinancialRecords(
     params: FuturesGetFinancialRecordsReq,
@@ -1167,7 +1160,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Account Financial Records (Exact)
    *
    * Financial records via multiple fields. Same params as swap_financial_record; API default direct is prev. Signature required. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetBills. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapFinancialRecordsExact(
     params: FuturesGetFinancialRecordsExactReq,
@@ -1181,7 +1173,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Available Leverage (Isolated)
    *
    * User's available leverage per contract. Isolated margin only. Signature required. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetLeverage. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedAvailableLeverage(params?: {
     contract_code?: string;
@@ -1195,7 +1186,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Available Leverage (Cross)
    *
    * User's available leverage per contract. Cross margin only. Signature required. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetLeverage. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossAvailableLeverage(
     params?: FuturesGetCrossAvailableLeverageReq,
@@ -1262,7 +1252,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Position Limit (Isolated)
    *
    * Max long/short position limits per contract. Isolated margin only. Signature required. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetRiskLimit. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedPositionLimit(params?: {
     contract_code?: string;
@@ -1276,7 +1265,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Position Limit (Cross)
    *
    * Max long/short position limits per contract. Cross margin only. Signature required. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetRiskLimit. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossPositionLimit(
     params?: FuturesGetCrossPositionLimitReq,
@@ -1290,7 +1278,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Position Limit for All Leverages (Isolated)
    *
    * Position limits per leverage per contract. Isolated margin only. Signature required. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetRiskLimitTiers. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedLeverageLimits(params?: {
     contract_code?: string;
@@ -1305,7 +1292,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Position Limit for All Leverages (Cross)
    *
    * Position limits per leverage per contract. Cross margin only. Signature required. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetRiskLimitTiers. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossLeverageLimits(
     params?: FuturesGetCrossLeverageLimitsReq,
@@ -1370,7 +1356,6 @@ export class FuturesClient extends BaseRestClient {
    * Automatic Order Cancellation (Dead Man's Switch)
    *
    * Enable/disable auto-cancel of all pending orders after countdown. If not refreshed before timer ends, all pending orders are cancelled. Trade permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use setMultiAssetCancelAfter. Accounts not yet upgraded can keep this method.
    */
   setLinearSwapCancelAfter(params: {
     on_off: 0 | 1;
@@ -1413,7 +1398,6 @@ export class FuturesClient extends BaseRestClient {
    * Switch Position Mode (Isolated)
    *
    * Set single_side or dual_side for isolated margin account. Trade permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use updateMultiAssetPositionMode. Accounts not yet upgraded can keep this method.
    */
   updateLinearSwapIsolatedPositionMode(params: {
     margin_account: string;
@@ -1428,7 +1412,6 @@ export class FuturesClient extends BaseRestClient {
    * Switch Position Mode (Cross)
    *
    * Set single_side or dual_side for cross margin account. Trade permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use updateMultiAssetPositionMode. Accounts not yet upgraded can keep this method.
    */
   updateLinearSwapCrossPositionMode(params: {
     margin_account: string;
@@ -1446,7 +1429,6 @@ export class FuturesClient extends BaseRestClient {
    * Place Order (Isolated)
    *
    * Place a single order. Isolated margin only. Trade permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use submitMultiAssetOrder. Accounts not yet upgraded can keep this method.
    */
   submitLinearSwapIsolatedOrder(
     params: FuturesSubmitOrderReq,
@@ -1460,7 +1442,6 @@ export class FuturesClient extends BaseRestClient {
    * Place Order (Cross)
    *
    * Place a single order. Cross margin only. One of contract_code or (pair+contract_type) required. Trade permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use submitMultiAssetOrder. Accounts not yet upgraded can keep this method.
    */
   submitLinearSwapCrossOrder(
     params: FuturesCrossSubmitOrderReq,
@@ -1474,7 +1455,6 @@ export class FuturesClient extends BaseRestClient {
    * Place Batch Orders (Isolated)
    *
    * Place up to 10 orders. Isolated margin only. Trade permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use submitMultiAssetBatchOrders. Accounts not yet upgraded can keep this method.
    */
   submitLinearSwapIsolatedBatchOrders(
     params: FuturesSubmitBatchOrderReq,
@@ -1488,7 +1468,6 @@ export class FuturesClient extends BaseRestClient {
    * Place Batch Orders (Cross)
    *
    * Place up to 25 orders. Cross margin only. Trade permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use submitMultiAssetBatchOrders. Accounts not yet upgraded can keep this method.
    */
   submitLinearSwapCrossBatchOrders(
     params: FuturesSubmitCrossBatchOrderReq,
@@ -1502,7 +1481,6 @@ export class FuturesClient extends BaseRestClient {
    * Cancel Order (Isolated)
    *
    * Cancel order(s) by order_id or client_order_id. Max 25 per request. Isolated margin only. Trade permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetOrder. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapIsolatedOrder(
     params: FuturesCancelOrderReq,
@@ -1516,7 +1494,6 @@ export class FuturesClient extends BaseRestClient {
    * Cancel Order (Cross)
    *
    * Cancel order(s) by order_id or client_order_id. Max 25 per request. Cross margin only. Trade permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetOrder. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapCrossOrder(
     params: FuturesCancelCrossOrderReq,
@@ -1530,7 +1507,6 @@ export class FuturesClient extends BaseRestClient {
    * Cancel All Orders (Isolated)
    *
    * Cancel all orders for contract. Optional direction/offset filter. Isolated margin only. Trade permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetAllOrders. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapIsolatedAllOrders(
     params: FuturesCancelAllOrdersReq,
@@ -1544,7 +1520,6 @@ export class FuturesClient extends BaseRestClient {
    * Cancel All Orders (Cross)
    *
    * Cancel all orders for contract. Optional direction/offset filter. Cross margin only. Trade permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetAllOrders. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapCrossAllOrders(
     params: FuturesCancelCrossAllOrdersReq,
@@ -1558,7 +1533,6 @@ export class FuturesClient extends BaseRestClient {
    * Switch Leverage (Isolated)
    *
    * Set leverage for isolated margin contract. Requires no open orders. Trade permission. Rate limit: 1 per 3s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use updateMultiAssetLeverage. Accounts not yet upgraded can keep this method.
    */
   updateLinearSwapIsolatedLeverage(params: {
     contract_code: string;
@@ -1573,7 +1547,6 @@ export class FuturesClient extends BaseRestClient {
    * Switch Leverage (Cross)
    *
    * Set leverage for cross margin contract. Requires no open orders. Trade permission. Rate limit: 1 per 3s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use updateMultiAssetLeverage. Accounts not yet upgraded can keep this method.
    */
   updateLinearSwapCrossLeverage(
     params: FuturesUpdateCrossLeverageReq,
@@ -1590,7 +1563,6 @@ export class FuturesClient extends BaseRestClient {
    * Get Order Information (Isolated)
    *
    * Query order(s) by order_id or client_order_id. Max 50 per request. Isolated margin only. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetOrderInfo. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedOrderInfo(
     params: FuturesGetOrderInfoReq,
@@ -1604,7 +1576,6 @@ export class FuturesClient extends BaseRestClient {
    * Get Order Information (Cross)
    *
    * Query order(s) by order_id or client_order_id. Max 50 per request. Cross margin only. One of contract_code or pair required. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetOrderInfo. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossOrderInfo(
     params: FuturesGetCrossOrderInfoReq,
@@ -1618,7 +1589,6 @@ export class FuturesClient extends BaseRestClient {
    * Get Order Detail (Isolated)
    *
    * Order details with trade breakdown. Paginated. Isolated margin only. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetFills. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedOrderDetail(
     params: FuturesGetOrderDetailReq,
@@ -1632,7 +1602,6 @@ export class FuturesClient extends BaseRestClient {
    * Get Order Detail (Cross)
    *
    * Order details with trade breakdown. Paginated. Cross margin only. One of contract_code or pair required. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetFills. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossOrderDetail(
     params: FuturesGetCrossOrderDetailReq,
@@ -1646,7 +1615,6 @@ export class FuturesClient extends BaseRestClient {
    * Get Open Orders (Isolated)
    *
    * Current unfilled orders. Paginated. Isolated margin only. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetOpenOrders. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedOpenOrders(
     params?: FuturesGetOpenOrdersReq,
@@ -1660,7 +1628,6 @@ export class FuturesClient extends BaseRestClient {
    * Get Open Orders (Cross)
    *
    * Current unfilled orders. Paginated. Cross margin only. Omit all for all contracts. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetOpenOrders. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossOpenOrders(
     params?: FuturesGetCrossOpenOrdersReq,
@@ -1674,7 +1641,6 @@ export class FuturesClient extends BaseRestClient {
    * Get History Orders (Isolated)
    *
    * Historical orders. Time-window query, 48h max. Isolated margin only. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetOrderHistory. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedHistoryOrders(
     params: FuturesGetHistoryOrdersReq,
@@ -1688,7 +1654,6 @@ export class FuturesClient extends BaseRestClient {
    * Get History Orders (Cross)
    *
    * Historical orders. Time-window query, 48h max. Cross margin only. One of contract or pair required. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetOrderHistory. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossHistoryOrders(
     params: FuturesGetCrossHistoryOrdersReq,
@@ -1702,7 +1667,6 @@ export class FuturesClient extends BaseRestClient {
    * Get History Orders via Multiple Fields (Isolated)
    *
    * History orders with price_type filter. Isolated margin only. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetOrderHistory. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedHistoryOrdersExact(
     params: FuturesGetHistoryOrdersExactReq,
@@ -1716,7 +1680,6 @@ export class FuturesClient extends BaseRestClient {
    * Get History Orders via Multiple Fields (Cross)
    *
    * History orders with price_type filter. Cross margin only. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetOrderHistory. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossHistoryOrdersExact(
     params: FuturesGetCrossHistoryOrdersExactReq,
@@ -1730,7 +1693,6 @@ export class FuturesClient extends BaseRestClient {
    * Acquire History Fills (Isolated)
    *
    * Matched trades history. One of contract or pair required. Isolated margin only. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetFills. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedFills(
     params: FuturesGetFillsReq,
@@ -1744,7 +1706,6 @@ export class FuturesClient extends BaseRestClient {
    * Get History Fills (Cross)
    *
    * Matched trades history. One of contract or pair required. Cross margin only. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetFills. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossFills(
     params: FuturesGetCrossFillsReq,
@@ -1758,7 +1719,6 @@ export class FuturesClient extends BaseRestClient {
    * Get History Fills via Multiple Fields (Isolated)
    *
    * Matched trades history. Isolated margin only. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetFills. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedFillsExact(
     params: FuturesGetFillsExactReq,
@@ -1772,7 +1732,6 @@ export class FuturesClient extends BaseRestClient {
    * Get History Fills via Multiple Fields (Cross)
    *
    * Matched trades history. Cross margin only. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetFills. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossFillsExact(
     params: FuturesGetCrossFillsExactReq,
@@ -1789,7 +1748,6 @@ export class FuturesClient extends BaseRestClient {
    * Place Lightning Close Order (Isolated)
    *
    * Closes position using optimal 30-grade rival price; unfilled converts to limit. Isolated only. Trade permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use closeMultiAssetPosition. Accounts not yet upgraded can keep this method.
    */
   submitLinearSwapIsolatedLightningCloseOrder(
     params: FuturesSubmitLightningCloseOrderReq,
@@ -1806,7 +1764,6 @@ export class FuturesClient extends BaseRestClient {
    * Place Lightning Close Position (Cross)
    *
    * Closes position using optimal 30-grade rival price. One of (pair+contract_type) or contract_code required. Cross only. Trade permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use closeMultiAssetPosition. Accounts not yet upgraded can keep this method.
    */
   submitLinearSwapCrossLightningCloseOrder(
     params: FuturesSubmitCrossLightningCloseOrderReq,
@@ -1821,7 +1778,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Position Mode (Isolated)
    *
    * Returns position mode (single_side/dual_side) per margin account. Isolated. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetPositionMode. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedPositionMode(params: {
     margin_account: string;
@@ -1833,7 +1789,6 @@ export class FuturesClient extends BaseRestClient {
    * Query Position Mode (Cross)
    *
    * Returns position mode (single_side/dual_side) per margin account. Cross. Read permission. Rate limit: 144/3s per UID.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetPositionMode. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossPositionMode(params: {
     margin_account: string;
@@ -1854,7 +1809,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Place Trigger Order
    *
    * Isolated margin only. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use submitMultiAssetAlgoOrder. Accounts not yet upgraded can keep this method.
    */
   submitLinearSwapIsolatedTriggerOrder(
     params: FuturesSubmitTriggerOrderReq,
@@ -1868,7 +1822,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Place Trigger Order
    *
    * Cross margin only. One of (pair+contract_type) or contract_code required; contract_code preferred when all filled. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use submitMultiAssetAlgoOrder. Accounts not yet upgraded can keep this method.
    */
   submitLinearSwapCrossTriggerOrder(
     params: FuturesSubmitCrossTriggerOrderReq,
@@ -1882,7 +1835,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Cancel Trigger Order
    *
    * Isolated margin only. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetAlgoOrders. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapIsolatedTriggerOrder(params: {
     contract_code: string;
@@ -1897,7 +1849,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Cancel Trigger Order
    *
    * Cross margin only. One of (pair+contract_type) or contract_code required; contract_code preferred when all filled. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetAlgoOrders. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapCrossTriggerOrder(
     params: FuturesCancelCrossTriggerOrderReq,
@@ -1911,7 +1862,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Cancel All Trigger Orders
    *
    * Isolated margin only. Trade permission. Rate limit: 5/s. Can fill only one of direction and offset to filter.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetAlgoOrders. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapIsolatedAllTriggerOrders(
     params: FuturesCancelAllTriggerOrdersReq,
@@ -1925,7 +1875,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Cancel All Trigger Orders
    *
    * Cross margin only. One of (pair+contract_type) or contract_code required; contract_code preferred when all filled. Trade permission. Rate limit: 5/s. Can fill only one of direction and offset to filter.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetAlgoOrders. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapCrossAllTriggerOrders(
     params: FuturesCancelAllCrossTriggerOrdersReq,
@@ -1942,7 +1891,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Query Trigger Order Open Orders
    *
    * Isolated margin only. Read permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAlgoOpenOrders. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedTriggerOpenOrders(
     params: FuturesGetTriggerOpenOrdersReq,
@@ -1956,7 +1904,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Query Trigger Order Open Orders
    *
    * Cross margin only. When both pair and contract_code filled, contract_code preferred; when none, all open orders. Read permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAlgoOpenOrders. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossTriggerOpenOrders(
     params: FuturesGetCrossTriggerOpenOrdersReq,
@@ -1971,7 +1918,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Query Trigger Order History
    *
    * Isolated margin only. Read permission. Default query completed orders (status 4, 5, 6).
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAlgoOrderHistory. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedTriggerHistoryOrders(
     params: FuturesGetTriggerHistoryOrdersReq,
@@ -1985,7 +1931,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Query Trigger Order History
    *
    * Cross margin only. One of pair or contract_code required; contract_code preferred when both filled. Read permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAlgoOrderHistory. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossTriggerHistoryOrders(
     params: FuturesGetCrossTriggerHistoryOrdersReq,
@@ -2000,7 +1945,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Set Take-profit and Stop-loss Order for an Existing Position
    *
    * Isolated margin only. At least one of tp_trigger_price and sl_trigger_price required. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use submitMultiAssetAlgoOrder. Accounts not yet upgraded can keep this method.
    */
   submitLinearSwapIsolatedTpslOrder(
     params: FuturesSubmitTpslOrderReq,
@@ -2014,7 +1958,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Set Take-profit and Stop-loss Order for an Existing Position
    *
    * Cross margin only. One of (pair+contract_type) or contract_code required; contract_code preferred when all filled. At least one of tp_trigger_price and sl_trigger_price required. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use submitMultiAssetAlgoOrder. Accounts not yet upgraded can keep this method.
    */
   submitLinearSwapCrossTpslOrder(
     params: FuturesSubmitCrossTpslOrderReq,
@@ -2028,7 +1971,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Cancel a Take-profit and Stop-loss Order
    *
    * Isolated margin only. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetAlgoOrders. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapIsolatedTpslOrder(params: {
     contract_code: string;
@@ -2043,7 +1985,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Cancel a Take-profit and Stop-loss Order
    *
    * Cross margin only. One of (pair+contract_type) or contract_code required; contract_code preferred when all filled. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetAlgoOrders. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapCrossTpslOrder(
     params: FuturesCancelCrossTpslOrderReq,
@@ -2057,7 +1998,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Cancel all Take-profit and Stop-loss Orders
    *
    * Isolated margin only. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetAlgoOrders. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapIsolatedAllTpslOrders(params: {
     contract_code: string;
@@ -2072,7 +2012,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Cancel all Take-profit and Stop-loss Orders
    *
    * Cross margin only. One of (pair+contract_type) or contract_code required; contract_code preferred when all filled. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetAlgoOrders. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapCrossAllTpslOrders(
     params: FuturesCancelAllCrossTpslOrdersReq,
@@ -2086,7 +2025,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Query Open Take-profit and Stop-loss Orders
    *
    * Isolated margin only. Read permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAlgoOpenOrders. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedTpslOpenOrders(
     params: FuturesGetTpslOpenOrdersReq,
@@ -2100,7 +2038,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Query Open Take-profit and Stop-loss Orders
    *
    * Cross margin only. When both filled, contract_code preferred; when none, all data. Read permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAlgoOpenOrders. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossTpslOpenOrders(
     params: FuturesGetCrossTpslOpenOrdersReq,
@@ -2114,7 +2051,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Query Take-profit and Stop-loss History Orders
    *
    * Isolated margin only. Read permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAlgoOrderHistory. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedTpslHistoryOrders(
     params: FuturesGetTpslHistoryOrdersReq,
@@ -2128,7 +2064,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Query Take-profit and Stop-loss History Orders
    *
    * Cross margin only. One of pair or contract_code required; contract_code preferred when both filled. Read permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAlgoOrderHistory. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossTpslHistoryOrders(
     params: FuturesGetCrossTpslHistoryOrdersReq,
@@ -2142,7 +2077,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Query Relation TPSL Order
    *
    * TPSL order info related to position-opening order. Isolated margin only. Read permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAlgoOrder. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedRelationTpslOrder(params: {
     contract_code: string;
@@ -2157,7 +2091,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Query Relation TPSL Order
    *
    * TPSL order info related to position-opening order. Cross margin only. One of pair or contract_code required. Read permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAlgoOrder. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossRelationTpslOrder(
     params: FuturesGetCrossRelationTpslOrderReq,
@@ -2174,7 +2107,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Place a Trailing Order
    *
    * Isolated margin only. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use submitMultiAssetAlgoOrder. Accounts not yet upgraded can keep this method.
    */
   submitLinearSwapIsolatedTrailingOrder(
     params: FuturesSubmitTrailingOrderReq,
@@ -2188,7 +2120,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Place a Trailing Order
    *
    * Cross margin only. One of (pair+contract_type) or contract_code required; contract_code preferred when all filled. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use submitMultiAssetAlgoOrder. Accounts not yet upgraded can keep this method.
    */
   submitLinearSwapCrossTrailingOrder(
     params: FuturesSubmitCrossTrailingOrderReq,
@@ -2202,7 +2133,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Cancel a Trailing Order
    *
    * Isolated margin only. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetAlgoOrders. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapIsolatedTrailingOrder(params: {
     contract_code: string;
@@ -2217,7 +2147,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Cancel a Trailing Order
    *
    * Cross margin only. One of (pair+contract_type) or contract_code required; contract_code preferred when all filled. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetAlgoOrders. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapCrossTrailingOrder(
     params: FuturesCancelCrossTrailingOrderReq,
@@ -2231,7 +2160,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Cancel All Trailing Orders
    *
    * Isolated margin only. Can fill only one of direction and offset to filter. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetAlgoOrders. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapIsolatedAllTrailingOrders(
     params: FuturesCancelAllTrailingOrdersReq,
@@ -2245,7 +2173,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Cancel All Trailing Orders
    *
    * Cross margin only. One of (pair+contract_type) or contract_code required; contract_code preferred when all filled. Can fill only one of direction and offset to filter. Trade permission. Rate limit: 5/s.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use cancelMultiAssetAlgoOrders. Accounts not yet upgraded can keep this method.
    */
   cancelLinearSwapCrossAllTrailingOrders(
     params: FuturesCancelAllCrossTrailingOrdersReq,
@@ -2259,7 +2186,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Current unfilled trailing order acquisition
    *
    * Isolated margin only. Read permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAlgoOpenOrders. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedTrailingOpenOrders(
     params: FuturesGetTrailingOpenOrdersReq,
@@ -2273,7 +2199,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Current unfilled trailing order acquisition
    *
    * Cross margin only. When both filled, contract_code preferred; when none, all open orders. Read permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAlgoOpenOrders. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossTrailingOpenOrders(
     params: FuturesGetCrossTrailingOpenOrdersReq,
@@ -2287,7 +2212,6 @@ export class FuturesClient extends BaseRestClient {
    * [Isolated] Get History Trailing Orders
    *
    * Isolated margin only. Read permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAlgoOrderHistory. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapIsolatedTrailingHistoryOrders(
     params: FuturesGetTrailingHistoryOrdersReq,
@@ -2301,7 +2225,6 @@ export class FuturesClient extends BaseRestClient {
    * [Cross] Get History Trailing Orders
    *
    * Cross margin only. One of pair or contract_code required; contract_code preferred when both filled. Read permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAlgoOrderHistory. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapCrossTrailingHistoryOrders(
     params: FuturesGetCrossTrailingHistoryOrdersReq,
@@ -2319,7 +2242,6 @@ export class FuturesClient extends BaseRestClient {
    * Query unified account assets
    *
    * Total assets of USDT-M unified account. Non-unified accounts still use cross/isolated separately. Read permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAccountBalance. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapUnifiedAccountInfo(params?: {
     contract_code?: string;
@@ -2331,7 +2253,6 @@ export class FuturesClient extends BaseRestClient {
    * Deductible asset inquiry (linear swap overview account info)
    *
    * Total account assets of U-margin contract unified account. Read permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use getMultiAssetAccountBalance. Accounts not yet upgraded can keep this method.
    */
   getLinearSwapUnifiedAssets(params?: {
     trade_partition?: string;
@@ -2348,7 +2269,6 @@ export class FuturesClient extends BaseRestClient {
    * Set the U-standard contract fee deduction method
    *
    * When set currency balance is insufficient, other currencies (e.g. USDT) offset. Only one currency in deduction_currency. Trade permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use updateMultiAssetFeeCurrency. Accounts not yet upgraded can keep this method.
    */
   updateLinearSwapUnifiedFeeMethod(params: {
     fee_option: 0 | 1;
@@ -2379,7 +2299,6 @@ export class FuturesClient extends BaseRestClient {
    * Adjust margin for isolated positions
    *
    * Increase or decrease isolated margin. Query margin_available (increase) and withdraw_available (reduce) via getLinearSwapUnifiedAccountInfo. Trade permission.
-   * @deprecated Accounts already on the unified V5 account get 6023 ("The current API version has expired. Please upgrade to the V5 interface"). Use adjustMultiAssetMargin. Accounts not yet upgraded can keep this method.
    */
   updateLinearSwapUnifiedMargin(
     params: FuturesUpdateUnifiedMarginReq,
