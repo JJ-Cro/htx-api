@@ -207,313 +207,313 @@ This table includes all endpoints from the official Exchange API docs and corres
 | [getLinearSwapFundingRateKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L893) |  | GET | `/index/market/history/linear_swap_estimated_rate_kline` |
 | [getLinearSwapBasisData()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L907) |  | GET | `/index/market/history/linear_swap_basis` |
 | [getLinearSwapAssetValuation()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L925) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_balance_valuation` |
-| [getLinearSwapIsolatedAccountInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L938) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_account_info` |
-| [getLinearSwapCrossAccountInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L951) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_account_info` |
-| [getLinearSwapIsolatedPositions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L964) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_position_info` |
-| [getLinearSwapCrossPositions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L977) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_position_info` |
-| [getLinearSwapIsolatedAccountFull()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L990) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_account_position_info` |
-| [getLinearSwapCrossAccountFull()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1003) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_account_position_info` |
-| [updateLinearSwapSubPermissions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1017) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_sub_auth` |
-| [getLinearSwapSubPermissions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1031) | :closed_lock_with_key:  | GET | `/linear-swap-api/v1/swap_sub_auth_list` |
-| [getLinearSwapIsolatedSubAccounts()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1042) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_sub_account_list` |
-| [getLinearSwapCrossSubAccounts()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1055) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_sub_account_list` |
-| [getLinearSwapIsolatedSubAccountsAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1068) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_sub_account_info_list` |
-| [getLinearSwapCrossSubAccountsAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1081) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_sub_account_info_list` |
-| [getLinearSwapIsolatedSubAccountAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1095) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_sub_account_info` |
-| [getLinearSwapCrossSubAccountAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1109) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_sub_account_info` |
-| [getLinearSwapIsolatedSubPositions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1123) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_sub_position_info` |
-| [getLinearSwapCrossSubPositions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1137) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_sub_position_info` |
-| [getLinearSwapFinancialRecords()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1151) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_financial_record` |
-| [getLinearSwapFinancialRecordsExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1164) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_financial_record_exact` |
-| [getLinearSwapIsolatedAvailableLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1177) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_available_level_rate` |
-| [getLinearSwapCrossAvailableLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1190) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_available_level_rate` |
-| [getLinearSwapOrderLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1204) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_order_limit` |
-| [getLinearSwapFee()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1217) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_fee` |
-| [getLinearSwapIsolatedTransferLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1230) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_transfer_limit` |
-| [getLinearSwapCrossTransferLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1243) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_transfer_limit` |
-| [getLinearSwapIsolatedPositionLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1256) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_position_limit` |
-| [getLinearSwapCrossPositionLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1269) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_position_limit` |
-| [getLinearSwapIsolatedLeverageLimits()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1282) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_lever_position_limit` |
-| [getLinearSwapCrossLeverageLimits()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1296) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_lever_position_limit` |
-| [transferLinearSwapMasterSub()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1312) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_master_sub_transfer` |
-| [getLinearSwapMasterSubTransfers()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1325) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_master_sub_transfer_record` |
-| [transferLinearSwapInner()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1341) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_transfer_inner` |
-| [setLinearSwapCancelAfter()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1360) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/linear-cancel-after` |
-| [getLinearSwapCrossTradeState()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1374) | :closed_lock_with_key:  | GET | `/linear-swap-api/v1/swap_cross_trade_state` |
-| [getLinearSwapCrossTransferState()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1388) | :closed_lock_with_key:  | GET | `/linear-swap-api/v1/swap_cross_transfer_state` |
-| [updateLinearSwapIsolatedPositionMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1402) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_switch_position_mode` |
-| [updateLinearSwapCrossPositionMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1416) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_switch_position_mode` |
-| [submitLinearSwapIsolatedOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1433) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_order` |
-| [submitLinearSwapCrossOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1446) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_order` |
-| [submitLinearSwapIsolatedBatchOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1459) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_batchorder` |
-| [submitLinearSwapCrossBatchOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1472) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_batchorder` |
-| [cancelLinearSwapIsolatedOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1485) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cancel` |
-| [cancelLinearSwapCrossOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1498) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_cancel` |
-| [cancelLinearSwapIsolatedAllOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1511) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cancelall` |
-| [cancelLinearSwapCrossAllOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1524) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_cancelall` |
-| [updateLinearSwapIsolatedLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1537) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_switch_lever_rate` |
-| [updateLinearSwapCrossLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1551) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_switch_lever_rate` |
-| [getLinearSwapIsolatedOrderInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1567) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_order_info` |
-| [getLinearSwapCrossOrderInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1580) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_order_info` |
-| [getLinearSwapIsolatedOrderDetail()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1593) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_order_detail` |
-| [getLinearSwapCrossOrderDetail()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1606) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_order_detail` |
-| [getLinearSwapIsolatedOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1619) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_openorders` |
-| [getLinearSwapCrossOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1632) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_openorders` |
-| [getLinearSwapIsolatedHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1645) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_hisorders` |
-| [getLinearSwapCrossHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1658) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_cross_hisorders` |
-| [getLinearSwapIsolatedHistoryOrdersExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1671) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_hisorders_exact` |
-| [getLinearSwapCrossHistoryOrdersExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1684) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_cross_hisorders_exact` |
-| [getLinearSwapIsolatedFills()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1697) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_matchresults` |
-| [getLinearSwapCrossFills()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1710) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_cross_matchresults` |
-| [getLinearSwapIsolatedFillsExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1723) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_matchresults_exact` |
-| [getLinearSwapCrossFillsExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1736) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_cross_matchresults_exact` |
-| [submitLinearSwapIsolatedLightningCloseOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1752) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_lightning_close_position` |
-| [submitLinearSwapCrossLightningCloseOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1768) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_lightning_close_position` |
-| [getLinearSwapIsolatedPositionMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1782) | :closed_lock_with_key:  | GET | `/linear-swap-api/v1/swap_position_side` |
-| [getLinearSwapCrossPositionMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1793) | :closed_lock_with_key:  | GET | `/linear-swap-api/v1/swap_cross_position_side` |
-| [submitLinearSwapIsolatedTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1813) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_trigger_order` |
-| [submitLinearSwapCrossTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1826) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_trigger_order` |
-| [cancelLinearSwapIsolatedTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1839) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_trigger_cancel` |
-| [cancelLinearSwapCrossTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1853) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_trigger_cancel` |
-| [cancelLinearSwapIsolatedAllTriggerOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1866) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_trigger_cancelall` |
-| [cancelLinearSwapCrossAllTriggerOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1879) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_trigger_cancelall` |
-| [getLinearSwapIsolatedTriggerOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1895) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_trigger_openorders` |
-| [getLinearSwapCrossTriggerOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1908) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_trigger_openorders` |
-| [getLinearSwapIsolatedTriggerHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1922) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_trigger_hisorders` |
-| [getLinearSwapCrossTriggerHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1935) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_trigger_hisorders` |
-| [submitLinearSwapIsolatedTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1949) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_tpsl_order` |
-| [submitLinearSwapCrossTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1962) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_tpsl_order` |
-| [cancelLinearSwapIsolatedTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1975) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_tpsl_cancel` |
-| [cancelLinearSwapCrossTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1989) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_tpsl_cancel` |
-| [cancelLinearSwapIsolatedAllTpslOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2002) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_tpsl_cancelall` |
-| [cancelLinearSwapCrossAllTpslOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2016) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_tpsl_cancelall` |
-| [getLinearSwapIsolatedTpslOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2029) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_tpsl_openorders` |
-| [getLinearSwapCrossTpslOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2042) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_tpsl_openorders` |
-| [getLinearSwapIsolatedTpslHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2055) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_tpsl_hisorders` |
-| [getLinearSwapCrossTpslHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2068) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_tpsl_hisorders` |
-| [getLinearSwapIsolatedRelationTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2081) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_relation_tpsl_order` |
-| [getLinearSwapCrossRelationTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2095) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_relation_tpsl_order` |
-| [submitLinearSwapIsolatedTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2111) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_track_order` |
-| [submitLinearSwapCrossTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2124) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_track_order` |
-| [cancelLinearSwapIsolatedTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2137) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_track_cancel` |
-| [cancelLinearSwapCrossTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2151) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_track_cancel` |
-| [cancelLinearSwapIsolatedAllTrailingOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2164) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_track_cancelall` |
-| [cancelLinearSwapCrossAllTrailingOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2177) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_track_cancelall` |
-| [getLinearSwapIsolatedTrailingOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2190) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_track_openorders` |
-| [getLinearSwapCrossTrailingOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2203) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_track_openorders` |
-| [getLinearSwapIsolatedTrailingHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2216) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_track_hisorders` |
-| [getLinearSwapCrossTrailingHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2229) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_track_hisorders` |
-| [getLinearSwapUnifiedAccountInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2246) | :closed_lock_with_key:  | GET | `/linear-swap-api/v3/unified_account_info` |
-| [getLinearSwapUnifiedAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2257) | :closed_lock_with_key:  | GET | `/linear-swap-api/v3/linear_swap_overview_account_info` |
-| [updateLinearSwapUnifiedFeeMethod()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2273) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/linear_swap_fee_switch` |
-| [getLinearSwapUnifiedMarginAdjustments()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2287) | :closed_lock_with_key:  | GET | `/linear-swap-api/v3/fix_position_margin_change_record` |
-| [updateLinearSwapUnifiedMargin()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2303) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/fix_position_margin_change` |
-| [getMultiAssetAccountBalance()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2323) | :closed_lock_with_key:  | GET | `/v5/account/balance` |
-| [getMultiAssetMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2335) | :closed_lock_with_key:  | GET | `/v5/account/asset_mode` |
-| [updateMultiAssetMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2347) | :closed_lock_with_key:  | POST | `/v5/account/asset_mode` |
-| [updateMultiAssetFeeCurrency()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2359) | :closed_lock_with_key:  | POST | `/v5/account/fee_deduction_currency` |
-| [getMultiAssetFeeCurrency()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2374) | :closed_lock_with_key:  | GET | `/v5/account/fee_deduction_currency` |
-| [getMultiAssetBills()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2386) | :closed_lock_with_key:  | GET | `/v5/account/bills` |
-| [submitMultiAssetOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2404) | :closed_lock_with_key:  | POST | `/v5/trade/order` |
-| [submitMultiAssetBatchOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2416) | :closed_lock_with_key:  | POST | `/v5/trade/batch_orders` |
-| [cancelMultiAssetOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2428) | :closed_lock_with_key:  | POST | `/v5/trade/cancel_order` |
-| [cancelMultiAssetBatchOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2440) | :closed_lock_with_key:  | POST | `/v5/trade/cancel_batch_orders` |
-| [cancelMultiAssetAllOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2452) | :closed_lock_with_key:  | POST | `/v5/trade/cancel_all_orders` |
-| [closeMultiAssetPosition()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2466) | :closed_lock_with_key:  | POST | `/v5/trade/position` |
-| [closeMultiAssetAllPositions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2478) | :closed_lock_with_key:  | POST | `/v5/trade/position_all` |
-| [getMultiAssetOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2490) | :closed_lock_with_key:  | GET | `/v5/trade/order/opens` |
-| [getMultiAssetFills()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2502) | :closed_lock_with_key:  | GET | `/v5/trade/order/details` |
-| [getMultiAssetOrderHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2514) | :closed_lock_with_key:  | GET | `/v5/trade/order/history` |
-| [getMultiAssetOrderInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2526) | :closed_lock_with_key:  | GET | `/v5/trade/order` |
-| [setMultiAssetCancelAfter()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2538) | :closed_lock_with_key:  | POST | `/v5/trade/cancel-after` |
-| [submitMultiAssetAlgoOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2553) | :closed_lock_with_key:  | POST | `/v5/algo/order` |
-| [cancelMultiAssetAlgoOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2562) | :closed_lock_with_key:  | POST | `/v5/algo/cancel_orders` |
-| [getMultiAssetAlgoOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2571) | :closed_lock_with_key:  | GET | `/v5/algo/order` |
-| [getMultiAssetAlgoOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2580) | :closed_lock_with_key:  | GET | `/v5/algo/order/opens` |
-| [getMultiAssetAlgoOrderHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2589) | :closed_lock_with_key:  | GET | `/v5/algo/order/history` |
-| [getMultiAssetPositions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2607) | :closed_lock_with_key:  | GET | `/v5/trade/position/opens` |
-| [getMultiAssetLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2619) | :closed_lock_with_key:  | GET | `/v5/position/lever` |
-| [updateMultiAssetLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2631) | :closed_lock_with_key:  | POST | `/v5/position/lever` |
-| [getMultiAssetPositionMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2643) | :closed_lock_with_key:  | GET | `/v5/position/mode` |
-| [updateMultiAssetPositionMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2655) | :closed_lock_with_key:  | POST | `/v5/position/mode` |
-| [getMultiAssetRiskLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2667) | :closed_lock_with_key:  | GET | `/v5/position/risk/limit` |
-| [getMultiAssetRiskLimitTiers()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2679) | :closed_lock_with_key:  | GET | `/v5/position/risk/limit_tier` |
-| [adjustMultiAssetMargin()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2692) | :closed_lock_with_key:  | POST | `/v5/position/margin` |
-| [getMultiAssetFundingRateHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2710) |  | GET | `/v5/market/funding_rate_history` |
-| [getMultiAssetMarketRiskLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2721) | :closed_lock_with_key:  | GET | `/v5/market/risk/limit` |
-| [getMultiAssetFeeCurrencies()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2733) | :closed_lock_with_key:  | GET | `/v5/market/assets_deduction_currency` |
-| [getMultiAssetCollateralAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2745) | :closed_lock_with_key:  | GET | `/v5/market/multi_assets_margin` |
-| [getCoinMDeliveryAdjustFactor()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2762) |  | GET | `/api/v1/contract_adjustfactor` |
-| [getCoinMDeliveryHistoricalOpenInterest()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2773) |  | GET | `/api/v1/contract_his_open_interest` |
-| [getCoinMDeliveryTieredMargin()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2784) |  | GET | `/api/v1/contract_ladder_margin` |
-| [getCoinMDeliveryAccountRatio()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2795) |  | GET | `/api/v1/contract_elite_account_ratio` |
-| [getCoinMDeliveryPositionRatio()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2807) |  | GET | `/api/v1/contract_elite_position_ratio` |
-| [getCoinMDeliveryLiquidationOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2819) |  | GET | `/api/v3/contract_liquidation_orders` |
-| [getCoinMDeliverySettlementRecords()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2830) |  | GET | `/api/v1/contract_settlement_records` |
-| [getCoinMDeliveryRiskReserveBalance()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2841) |  | GET | `/v1/insurance_fund_info` |
-| [getCoinMDeliveryRiskReserveHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2852) |  | GET | `/v1/insurance_fund_history` |
-| [getCoinMDeliveryContractLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2863) |  | GET | `/api/v1/contract_price_limit` |
-| [getCoinMDeliveryOpenInterest()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2874) |  | GET | `/api/v1/contract_open_interest` |
-| [getCoinMDeliveryDeliveryPrice()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2887) |  | GET | `/api/v1/contract_delivery_price` |
-| [getCoinMDeliveryEstimatedSettlementPrice()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2898) |  | GET | `/api/v1/contract_estimated_settlement_price` |
-| [getCoinMDeliverySystemStatus()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2911) |  | GET | `/api/v1/contract_api_state` |
-| [getCoinMDeliveryContractInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2922) |  | GET | `/api/v1/contract_contract_info` |
-| [getCoinMDeliveryIndexPrice()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2933) |  | GET | `/api/v1/contract_index` |
-| [getCoinMDeliveryIndexConstituents()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2944) |  | GET | `/api/market/contract_constituents` |
-| [getCoinMDeliveryContractElements()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2955) |  | GET | `/api/v1/contract_query_elements` |
-| [getCoinMDeliveryMarketDepth()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2972) |  | GET | `/market/depth` |
-| [getCoinMDeliveryMarketBbo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2984) |  | GET | `/market/bbo` |
-| [getCoinMDeliveryKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2995) |  | GET | `/market/history/kline` |
-| [getCoinMDeliveryMarkKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3006) |  | GET | `/index/market/history/mark_price_kline` |
-| [getCoinMDeliveryTicker()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3017) |  | GET | `/market/detail/merged` |
-| [getCoinMDeliveryTickers()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3028) |  | GET | `/v2/market/detail/batch_merged` |
-| [getCoinMDeliveryLastTrade()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3039) |  | GET | `/market/trade` |
-| [getCoinMDeliveryTradeHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3050) |  | GET | `/market/history/trade` |
-| [getCoinMDeliveryIndexKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3062) |  | GET | `/index/market/history/index` |
-| [getCoinMDeliveryBasisData()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3073) |  | GET | `/index/market/history/basis` |
-| [getCoinMDeliveryAssetValuation()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3090) | :closed_lock_with_key:  | POST | `/api/v1/contract_balance_valuation` |
-| [getCoinMDeliveryAccountInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3103) | :closed_lock_with_key:  | POST | `/api/v1/contract_account_info` |
-| [getCoinMDeliveryPositionInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3116) | :closed_lock_with_key:  | POST | `/api/v1/contract_position_info` |
-| [updateCoinMDeliverySubPermissions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3129) | :closed_lock_with_key:  | POST | `/api/v1/contract_sub_auth` |
-| [getCoinMDeliverySubPermissions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3143) | :closed_lock_with_key:  | GET | `/api/v1/contract_sub_auth_list` |
-| [getCoinMDeliverySubAccounts()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3154) | :closed_lock_with_key:  | POST | `/api/v1/contract_sub_account_list` |
-| [getCoinMDeliverySubAccountsAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3167) | :closed_lock_with_key:  | POST | `/api/v1/contract_sub_account_info_list` |
-| [getCoinMDeliverySubAccountAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3180) | :closed_lock_with_key:  | POST | `/api/v1/contract_sub_account_info` |
-| [getCoinMDeliverySubPositionInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3194) | :closed_lock_with_key:  | POST | `/api/v1/contract_sub_position_info` |
-| [getCoinMDeliveryFinancialRecords()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3208) | :closed_lock_with_key:  | POST | `/api/v3/contract_financial_record` |
-| [getCoinMDeliveryFinancialRecordsExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3221) | :closed_lock_with_key:  | POST | `/api/v3/contract_financial_record_exact` |
-| [getCoinMDeliveryUserSettlementRecords()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3234) | :closed_lock_with_key:  | POST | `/api/v1/contract_user_settlement_records` |
-| [getCoinMDeliveryOrderLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3249) | :closed_lock_with_key:  | POST | `/api/v1/contract_order_limit` |
-| [getCoinMDeliveryFee()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3262) | :closed_lock_with_key:  | POST | `/api/v1/contract_fee` |
-| [getCoinMDeliveryTransferLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3275) | :closed_lock_with_key:  | POST | `/api/v1/contract_transfer_limit` |
-| [getCoinMDeliveryPositionLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3288) | :closed_lock_with_key:  | POST | `/api/v1/contract_position_limit` |
-| [getCoinMDeliveryAccountFull()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3301) | :closed_lock_with_key:  | POST | `/api/v1/contract_account_position_info` |
-| [transferCoinMDeliveryMasterSub()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3314) | :closed_lock_with_key:  | POST | `/api/v1/contract_master_sub_transfer` |
-| [getCoinMDeliveryMasterSubTransfers()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3327) | :closed_lock_with_key:  | POST | `/api/v1/contract_master_sub_transfer_record` |
-| [getCoinMDeliveryApiStatus()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3340) | :closed_lock_with_key:  | GET | `/api/v1/contract_api_trading_status` |
-| [getCoinMDeliveryAvailableLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3351) | :closed_lock_with_key:  | POST | `/api/v1/contract_available_level_rate` |
-| [setCoinMDeliveryCancelAfter()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3370) | :closed_lock_with_key:  | POST | `/api/v1/contract-cancel-after` |
-| [submitCoinMDeliveryOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3384) | :closed_lock_with_key:  | POST | `/api/v1/contract_order` |
-| [submitCoinMDeliveryBatchOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3397) | :closed_lock_with_key:  | POST | `/api/v1/contract_batchorder` |
-| [cancelCoinMDeliveryOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3410) | :closed_lock_with_key:  | POST | `/api/v1/contract_cancel` |
-| [cancelCoinMDeliveryAllOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3423) | :closed_lock_with_key:  | POST | `/api/v1/contract_cancelall` |
-| [updateCoinMDeliveryLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3436) | :closed_lock_with_key:  | POST | `/api/v1/contract_switch_lever_rate` |
-| [getCoinMDeliveryOrderInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3450) | :closed_lock_with_key:  | POST | `/api/v1/contract_order_info` |
-| [getCoinMDeliveryOrderDetail()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3463) | :closed_lock_with_key:  | POST | `/api/v1/contract_order_detail` |
-| [getCoinMDeliveryOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3476) | :closed_lock_with_key:  | POST | `/api/v1/contract_openorders` |
-| [getCoinMDeliveryHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3489) | :closed_lock_with_key:  | POST | `/api/v3/contract_hisorders` |
-| [getCoinMDeliveryHistoryOrdersExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3502) | :closed_lock_with_key:  | POST | `/api/v3/contract_hisorders_exact` |
-| [getCoinMDeliveryFills()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3515) | :closed_lock_with_key:  | POST | `/api/v3/contract_matchresults` |
-| [getCoinMDeliveryFillsExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3528) | :closed_lock_with_key:  | POST | `/api/v3/contract_matchresults_exact` |
-| [submitCoinMDeliveryLightningCloseOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3541) | :closed_lock_with_key:  | POST | `/api/v1/lightning_close_position` |
-| [submitCoinMDeliveryTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3560) | :closed_lock_with_key:  | POST | `/api/v1/contract_trigger_order` |
-| [cancelCoinMDeliveryTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3573) | :closed_lock_with_key:  | POST | `/api/v1/contract_trigger_cancel` |
-| [cancelCoinMDeliveryAllTriggerOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3587) | :closed_lock_with_key:  | POST | `/api/v1/contract_trigger_cancelall` |
-| [getCoinMDeliveryTriggerOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3600) | :closed_lock_with_key:  | POST | `/api/v1/contract_trigger_openorders` |
-| [getCoinMDeliveryTriggerHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3613) | :closed_lock_with_key:  | POST | `/api/v1/contract_trigger_hisorders` |
-| [submitCoinMDeliveryTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3626) | :closed_lock_with_key:  | POST | `/api/v1/contract_tpsl_order` |
-| [cancelCoinMDeliveryTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3639) | :closed_lock_with_key:  | POST | `/api/v1/contract_tpsl_cancel` |
-| [cancelCoinMDeliveryAllTpslOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3653) | :closed_lock_with_key:  | POST | `/api/v1/contract_tpsl_cancelall` |
-| [getCoinMDeliveryTpslOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3666) | :closed_lock_with_key:  | POST | `/api/v1/contract_tpsl_openorders` |
-| [getCoinMDeliveryTpslHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3679) | :closed_lock_with_key:  | POST | `/api/v1/contract_tpsl_hisorders` |
-| [getCoinMDeliveryRelationTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3692) | :closed_lock_with_key:  | POST | `/api/v1/contract_relation_tpsl_order` |
-| [submitCoinMDeliveryTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3706) | :closed_lock_with_key:  | POST | `/api/v1/contract_track_order` |
-| [cancelCoinMDeliveryTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3719) | :closed_lock_with_key:  | POST | `/api/v1/contract_track_cancel` |
-| [cancelCoinMDeliveryAllTrailingOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3733) | :closed_lock_with_key:  | POST | `/api/v1/contract_track_cancelall` |
-| [getCoinMDeliveryTrailingOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3746) | :closed_lock_with_key:  | POST | `/api/v1/contract_track_openorders` |
-| [getCoinMDeliveryTrailingHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3759) | :closed_lock_with_key:  | POST | `/api/v1/contract_track_hisorders` |
-| [getCoinMPerpAdjustFactor()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3780) |  | GET | `/swap-api/v1/swap_adjustfactor` |
-| [getCoinMPerpHistoricalOpenInterest()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3791) |  | GET | `/swap-api/v1/swap_his_open_interest` |
-| [getCoinMPerpTieredMargin()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3802) |  | GET | `/swap-api/v1/swap_ladder_margin` |
-| [getCoinMPerpAccountRatio()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3813) |  | GET | `/swap-api/v1/swap_elite_account_ratio` |
-| [getCoinMPerpPositionRatio()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3825) |  | GET | `/swap-api/v1/swap_elite_position_ratio` |
-| [getCoinMPerpEstimatedSettlementPrice()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3837) |  | GET | `/swap-api/v1/swap_estimated_settlement_price` |
-| [getCoinMPerpSystemStatus()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3850) |  | GET | `/swap-api/v1/swap_api_state` |
-| [getCoinMPerpFundingRate()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3861) |  | GET | `/swap-api/v1/swap_funding_rate` |
-| [getCoinMPerpFundingRates()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3872) |  | GET | `/swap-api/v1/swap_batch_funding_rate` |
-| [getCoinMPerpHistoricalFundingRate()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3883) |  | GET | `/swap-api/v1/swap_historical_funding_rate` |
-| [getCoinMPerpLiquidationOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3896) |  | GET | `/swap-api/v3/swap_liquidation_orders` |
-| [getCoinMPerpSettlementRecords()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3907) |  | GET | `/swap-api/v1/swap_settlement_records` |
-| [getCoinMPerpContractInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3918) |  | GET | `/swap-api/v1/swap_contract_info` |
-| [getCoinMPerpIndexPrice()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3929) |  | GET | `/swap-api/v1/swap_index` |
-| [getCoinMPerpContractElements()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3940) |  | GET | `/swap-api/v1/swap_query_elements` |
-| [getCoinMPerpIndexConstituents()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3951) |  | GET | `/swap-api/market/swap_constituents` |
-| [getCoinMPerpRiskReserveBalance()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3962) |  | GET | `/v1/insurance_fund_info` |
-| [getCoinMPerpRiskReserveHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3973) |  | GET | `/v1/insurance_fund_history` |
-| [getCoinMPerpPriceLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3984) |  | GET | `/swap-api/v1/swap_price_limit` |
-| [getCoinMPerpOpenInterest()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3995) |  | GET | `/swap-api/v1/swap_open_interest` |
-| [getCoinMPerpMarketDepth()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4012) |  | GET | `/swap-ex/market/depth` |
-| [getCoinMPerpMarketBbo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4024) |  | GET | `/swap-ex/market/bbo` |
-| [getCoinMPerpKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4035) |  | GET | `/swap-ex/market/history/kline` |
-| [getCoinMPerpMarkKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4046) |  | GET | `/index/market/history/swap_mark_price_kline` |
-| [getCoinMPerpTicker()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4057) |  | GET | `/swap-ex/market/detail/merged` |
-| [getCoinMPerpTickers()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4068) |  | GET | `/v2/swap-ex/market/detail/batch_merged` |
-| [getCoinMPerpLastTrade()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4079) |  | GET | `/swap-ex/market/trade` |
-| [getCoinMPerpTradeHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4090) |  | GET | `/swap-ex/market/history/trade` |
-| [getCoinMPerpPremiumIndexKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4102) |  | GET | `/index/market/history/swap_premium_index_kline` |
-| [getCoinMPerpFundingRateKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4113) |  | GET | `/index/market/history/swap_estimated_rate_kline` |
-| [getCoinMPerpBasisData()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4124) |  | GET | `/index/market/history/swap_basis` |
-| [getCoinMPerpAssetValuation()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4141) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_balance_valuation` |
-| [getCoinMPerpAccountInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4154) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_account_info` |
-| [getCoinMPerpPositionInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4167) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_position_info` |
-| [getCoinMPerpAccountFull()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4180) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_account_position_info` |
-| [getCoinMPerpSubPermissions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4193) | :closed_lock_with_key:  | GET | `/swap-api/v1/swap_sub_auth_list` |
-| [updateCoinMPerpSubPermissions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4204) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_sub_auth` |
-| [getCoinMPerpSubAccounts()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4218) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_sub_account_list` |
-| [getCoinMPerpSubAccountsAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4231) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_sub_account_info_list` |
-| [getCoinMPerpSubAccountAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4244) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_sub_account_info` |
-| [getCoinMPerpSubPositions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4258) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_sub_position_info` |
-| [getCoinMPerpFinancialRecords()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4272) | :closed_lock_with_key:  | POST | `/swap-api/v3/swap_financial_record` |
-| [getCoinMPerpFinancialRecordsExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4285) | :closed_lock_with_key:  | POST | `/swap-api/v3/swap_financial_record_exact` |
-| [getCoinMPerpAvailableLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4298) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_available_level_rate` |
-| [getCoinMPerpOrderLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4311) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_order_limit` |
-| [getCoinMPerpFee()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4324) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_fee` |
-| [getCoinMPerpTransferLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4337) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_transfer_limit` |
-| [getCoinMPerpPositionLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4350) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_position_limit` |
-| [transferCoinMPerpMasterSub()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4363) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_master_sub_transfer` |
-| [getCoinMPerpMasterSubTransfers()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4376) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_master_sub_transfer_record` |
-| [getCoinMPerpApiStatus()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4389) | :closed_lock_with_key:  | GET | `/swap-api/v1/swap_api_trading_status` |
-| [setCoinMPerpCancelAfter()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4406) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap-cancel-after` |
-| [submitCoinMPerpOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4420) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_order` |
-| [submitCoinMPerpBatchOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4433) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_batchorder` |
-| [cancelCoinMPerpOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4446) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_cancel` |
-| [cancelCoinMPerpAllOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4459) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_cancelall` |
-| [updateCoinMPerpLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4472) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_switch_lever_rate` |
-| [getCoinMPerpOrderInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4486) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_order_info` |
-| [getCoinMPerpOrderDetail()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4499) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_order_detail` |
-| [getCoinMPerpOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4512) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_openorders` |
-| [getCoinMPerpHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4525) | :closed_lock_with_key:  | POST | `/swap-api/v3/swap_hisorders` |
-| [getCoinMPerpHistoryOrdersExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4538) | :closed_lock_with_key:  | POST | `/swap-api/v3/swap_hisorders_exact` |
-| [getCoinMPerpFills()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4551) | :closed_lock_with_key:  | POST | `/swap-api/v3/swap_matchresults` |
-| [getCoinMPerpFillsExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4564) | :closed_lock_with_key:  | POST | `/swap-api/v3/swap_matchresults_exact` |
-| [submitCoinMPerpLightningCloseOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4577) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_lightning_close_position` |
-| [submitCoinMPerpTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4596) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_trigger_order` |
-| [cancelCoinMPerpTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4609) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_trigger_cancel` |
-| [cancelCoinMPerpAllTriggerOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4623) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_trigger_cancelall` |
-| [getCoinMPerpTriggerOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4636) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_trigger_openorders` |
-| [getCoinMPerpTriggerHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4649) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_trigger_hisorders` |
-| [submitCoinMPerpTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4662) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_tpsl_order` |
-| [cancelCoinMPerpTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4675) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_tpsl_cancel` |
-| [cancelCoinMPerpAllTpslOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4688) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_tpsl_cancelall` |
-| [getCoinMPerpTpslOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4701) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_tpsl_openorders` |
-| [getCoinMPerpTpslHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4714) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_tpsl_hisorders` |
-| [getCoinMPerpRelationTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4727) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_relation_tpsl_order` |
-| [submitCoinMPerpTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4740) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_track_order` |
-| [cancelCoinMPerpTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4753) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_track_cancel` |
-| [cancelCoinMPerpAllTrailingOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4766) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_track_cancelall` |
-| [getCoinMPerpTrailingOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4779) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_track_openorders` |
-| [getCoinMPerpTrailingHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4792) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_track_hisorders` |
-| [getCopyTraderInstruments()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4811) | :closed_lock_with_key:  | GET | `/api/v6/copyTrading/trader/instruments` |
-| [getCopyTraderStatistics()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4822) | :closed_lock_with_key:  | GET | `/api/v6/copyTrading/trader/statistics` |
-| [getCopyTraderProfitSharingHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4833) | :closed_lock_with_key:  | GET | `/api/v6/copyTrading/trader/profit-sharing-history` |
-| [getCopyTraderProfitSharingHistorySummary()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4849) | :closed_lock_with_key:  | GET | `/api/v6/copyTrading/trader/profit-sharing-history-summary` |
-| [getCopyTraderUPNLSharingSummary()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4865) | :closed_lock_with_key:  | GET | `/api/v6/copyTrading/trader/unrealized-profit-sharing-summary` |
-| [getCopyTraderFollowers()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4881) | :closed_lock_with_key:  | GET | `/api/v6/copyTrading/trader/followers` |
-| [removeCopyTraderFollower()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4892) | :closed_lock_with_key:  | POST | `/api/v6/copyTrading/trader/follower` |
-| [submitCopyTraderTransfer()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4907) | :closed_lock_with_key:  | POST | `/api/v6/copyTrading/trader/transfer` |
-| [updateCopyTraderFollowerSettings()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4920) | :closed_lock_with_key:  | POST | `/api/v6/copyTrading/trader/follower-settings` |
-| [getCopyTraderConfig()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4933) | :closed_lock_with_key:  | POST | `/api/v6/copyTrading/trader/config` |
-| [createCopyTraderApikey()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4946) | :closed_lock_with_key:  | POST | `/api/v6/copyTrading/trader/apikey` |
+| [getLinearSwapIsolatedAccountInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L939) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_account_info` |
+| [getLinearSwapCrossAccountInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L953) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_account_info` |
+| [getLinearSwapIsolatedPositions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L967) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_position_info` |
+| [getLinearSwapCrossPositions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L981) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_position_info` |
+| [getLinearSwapIsolatedAccountFull()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L995) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_account_position_info` |
+| [getLinearSwapCrossAccountFull()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1009) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_account_position_info` |
+| [updateLinearSwapSubPermissions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1023) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_sub_auth` |
+| [getLinearSwapSubPermissions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1037) | :closed_lock_with_key:  | GET | `/linear-swap-api/v1/swap_sub_auth_list` |
+| [getLinearSwapIsolatedSubAccounts()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1048) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_sub_account_list` |
+| [getLinearSwapCrossSubAccounts()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1061) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_sub_account_list` |
+| [getLinearSwapIsolatedSubAccountsAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1074) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_sub_account_info_list` |
+| [getLinearSwapCrossSubAccountsAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1087) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_sub_account_info_list` |
+| [getLinearSwapIsolatedSubAccountAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1101) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_sub_account_info` |
+| [getLinearSwapCrossSubAccountAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1115) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_sub_account_info` |
+| [getLinearSwapIsolatedSubPositions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1129) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_sub_position_info` |
+| [getLinearSwapCrossSubPositions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1143) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_sub_position_info` |
+| [getLinearSwapFinancialRecords()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1158) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_financial_record` |
+| [getLinearSwapFinancialRecordsExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1172) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_financial_record_exact` |
+| [getLinearSwapIsolatedAvailableLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1186) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_available_level_rate` |
+| [getLinearSwapCrossAvailableLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1200) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_available_level_rate` |
+| [getLinearSwapOrderLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1214) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_order_limit` |
+| [getLinearSwapFee()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1227) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_fee` |
+| [getLinearSwapIsolatedTransferLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1240) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_transfer_limit` |
+| [getLinearSwapCrossTransferLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1253) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_transfer_limit` |
+| [getLinearSwapIsolatedPositionLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1267) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_position_limit` |
+| [getLinearSwapCrossPositionLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1281) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_position_limit` |
+| [getLinearSwapIsolatedLeverageLimits()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1295) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_lever_position_limit` |
+| [getLinearSwapCrossLeverageLimits()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1310) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_lever_position_limit` |
+| [transferLinearSwapMasterSub()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1326) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_master_sub_transfer` |
+| [getLinearSwapMasterSubTransfers()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1339) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_master_sub_transfer_record` |
+| [transferLinearSwapInner()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1355) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_transfer_inner` |
+| [setLinearSwapCancelAfter()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1375) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/linear-cancel-after` |
+| [getLinearSwapCrossTradeState()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1389) | :closed_lock_with_key:  | GET | `/linear-swap-api/v1/swap_cross_trade_state` |
+| [getLinearSwapCrossTransferState()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1403) | :closed_lock_with_key:  | GET | `/linear-swap-api/v1/swap_cross_transfer_state` |
+| [updateLinearSwapIsolatedPositionMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1418) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_switch_position_mode` |
+| [updateLinearSwapCrossPositionMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1433) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_switch_position_mode` |
+| [submitLinearSwapIsolatedOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1451) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_order` |
+| [submitLinearSwapCrossOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1465) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_order` |
+| [submitLinearSwapIsolatedBatchOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1479) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_batchorder` |
+| [submitLinearSwapCrossBatchOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1493) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_batchorder` |
+| [cancelLinearSwapIsolatedOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1507) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cancel` |
+| [cancelLinearSwapCrossOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1521) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_cancel` |
+| [cancelLinearSwapIsolatedAllOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1535) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cancelall` |
+| [cancelLinearSwapCrossAllOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1549) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_cancelall` |
+| [updateLinearSwapIsolatedLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1563) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_switch_lever_rate` |
+| [updateLinearSwapCrossLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1578) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_switch_lever_rate` |
+| [getLinearSwapIsolatedOrderInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1595) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_order_info` |
+| [getLinearSwapCrossOrderInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1609) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_order_info` |
+| [getLinearSwapIsolatedOrderDetail()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1623) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_order_detail` |
+| [getLinearSwapCrossOrderDetail()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1637) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_order_detail` |
+| [getLinearSwapIsolatedOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1651) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_openorders` |
+| [getLinearSwapCrossOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1665) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_openorders` |
+| [getLinearSwapIsolatedHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1679) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_hisorders` |
+| [getLinearSwapCrossHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1693) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_cross_hisorders` |
+| [getLinearSwapIsolatedHistoryOrdersExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1707) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_hisorders_exact` |
+| [getLinearSwapCrossHistoryOrdersExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1721) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_cross_hisorders_exact` |
+| [getLinearSwapIsolatedFills()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1735) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_matchresults` |
+| [getLinearSwapCrossFills()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1749) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_cross_matchresults` |
+| [getLinearSwapIsolatedFillsExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1763) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_matchresults_exact` |
+| [getLinearSwapCrossFillsExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1777) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/swap_cross_matchresults_exact` |
+| [submitLinearSwapIsolatedLightningCloseOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1794) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_lightning_close_position` |
+| [submitLinearSwapCrossLightningCloseOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1811) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_lightning_close_position` |
+| [getLinearSwapIsolatedPositionMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1826) | :closed_lock_with_key:  | GET | `/linear-swap-api/v1/swap_position_side` |
+| [getLinearSwapCrossPositionMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1838) | :closed_lock_with_key:  | GET | `/linear-swap-api/v1/swap_cross_position_side` |
+| [submitLinearSwapIsolatedTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1859) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_trigger_order` |
+| [submitLinearSwapCrossTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1873) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_trigger_order` |
+| [cancelLinearSwapIsolatedTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1887) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_trigger_cancel` |
+| [cancelLinearSwapCrossTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1902) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_trigger_cancel` |
+| [cancelLinearSwapIsolatedAllTriggerOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1916) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_trigger_cancelall` |
+| [cancelLinearSwapCrossAllTriggerOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1930) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_trigger_cancelall` |
+| [getLinearSwapIsolatedTriggerOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1947) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_trigger_openorders` |
+| [getLinearSwapCrossTriggerOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1961) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_trigger_openorders` |
+| [getLinearSwapIsolatedTriggerHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1976) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_trigger_hisorders` |
+| [getLinearSwapCrossTriggerHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L1990) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_trigger_hisorders` |
+| [submitLinearSwapIsolatedTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2005) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_tpsl_order` |
+| [submitLinearSwapCrossTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2019) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_tpsl_order` |
+| [cancelLinearSwapIsolatedTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2033) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_tpsl_cancel` |
+| [cancelLinearSwapCrossTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2048) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_tpsl_cancel` |
+| [cancelLinearSwapIsolatedAllTpslOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2062) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_tpsl_cancelall` |
+| [cancelLinearSwapCrossAllTpslOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2077) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_tpsl_cancelall` |
+| [getLinearSwapIsolatedTpslOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2091) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_tpsl_openorders` |
+| [getLinearSwapCrossTpslOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2105) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_tpsl_openorders` |
+| [getLinearSwapIsolatedTpslHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2119) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_tpsl_hisorders` |
+| [getLinearSwapCrossTpslHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2133) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_tpsl_hisorders` |
+| [getLinearSwapIsolatedRelationTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2147) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_relation_tpsl_order` |
+| [getLinearSwapCrossRelationTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2162) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_relation_tpsl_order` |
+| [submitLinearSwapIsolatedTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2179) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_track_order` |
+| [submitLinearSwapCrossTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2193) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_track_order` |
+| [cancelLinearSwapIsolatedTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2207) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_track_cancel` |
+| [cancelLinearSwapCrossTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2222) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_track_cancel` |
+| [cancelLinearSwapIsolatedAllTrailingOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2236) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_track_cancelall` |
+| [cancelLinearSwapCrossAllTrailingOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2250) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_track_cancelall` |
+| [getLinearSwapIsolatedTrailingOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2264) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_track_openorders` |
+| [getLinearSwapCrossTrailingOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2278) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_track_openorders` |
+| [getLinearSwapIsolatedTrailingHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2292) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_track_hisorders` |
+| [getLinearSwapCrossTrailingHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2306) | :closed_lock_with_key:  | POST | `/linear-swap-api/v1/swap_cross_track_hisorders` |
+| [getLinearSwapUnifiedAccountInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2324) | :closed_lock_with_key:  | GET | `/linear-swap-api/v3/unified_account_info` |
+| [getLinearSwapUnifiedAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2336) | :closed_lock_with_key:  | GET | `/linear-swap-api/v3/linear_swap_overview_account_info` |
+| [updateLinearSwapUnifiedFeeMethod()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2353) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/linear_swap_fee_switch` |
+| [getLinearSwapUnifiedMarginAdjustments()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2367) | :closed_lock_with_key:  | GET | `/linear-swap-api/v3/fix_position_margin_change_record` |
+| [updateLinearSwapUnifiedMargin()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2384) | :closed_lock_with_key:  | POST | `/linear-swap-api/v3/fix_position_margin_change` |
+| [getMultiAssetAccountBalance()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2404) | :closed_lock_with_key:  | GET | `/v5/account/balance` |
+| [getMultiAssetMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2416) | :closed_lock_with_key:  | GET | `/v5/account/asset_mode` |
+| [updateMultiAssetMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2428) | :closed_lock_with_key:  | POST | `/v5/account/asset_mode` |
+| [updateMultiAssetFeeCurrency()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2440) | :closed_lock_with_key:  | POST | `/v5/account/fee_deduction_currency` |
+| [getMultiAssetFeeCurrency()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2455) | :closed_lock_with_key:  | GET | `/v5/account/fee_deduction_currency` |
+| [getMultiAssetBills()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2467) | :closed_lock_with_key:  | GET | `/v5/account/bills` |
+| [submitMultiAssetOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2485) | :closed_lock_with_key:  | POST | `/v5/trade/order` |
+| [submitMultiAssetBatchOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2497) | :closed_lock_with_key:  | POST | `/v5/trade/batch_orders` |
+| [cancelMultiAssetOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2509) | :closed_lock_with_key:  | POST | `/v5/trade/cancel_order` |
+| [cancelMultiAssetBatchOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2521) | :closed_lock_with_key:  | POST | `/v5/trade/cancel_batch_orders` |
+| [cancelMultiAssetAllOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2533) | :closed_lock_with_key:  | POST | `/v5/trade/cancel_all_orders` |
+| [closeMultiAssetPosition()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2547) | :closed_lock_with_key:  | POST | `/v5/trade/position` |
+| [closeMultiAssetAllPositions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2559) | :closed_lock_with_key:  | POST | `/v5/trade/position_all` |
+| [getMultiAssetOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2571) | :closed_lock_with_key:  | GET | `/v5/trade/order/opens` |
+| [getMultiAssetFills()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2583) | :closed_lock_with_key:  | GET | `/v5/trade/order/details` |
+| [getMultiAssetOrderHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2595) | :closed_lock_with_key:  | GET | `/v5/trade/order/history` |
+| [getMultiAssetOrderInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2607) | :closed_lock_with_key:  | GET | `/v5/trade/order` |
+| [setMultiAssetCancelAfter()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2619) | :closed_lock_with_key:  | POST | `/v5/trade/cancel-after` |
+| [submitMultiAssetAlgoOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2634) | :closed_lock_with_key:  | POST | `/v5/algo/order` |
+| [cancelMultiAssetAlgoOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2643) | :closed_lock_with_key:  | POST | `/v5/algo/cancel_orders` |
+| [getMultiAssetAlgoOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2652) | :closed_lock_with_key:  | GET | `/v5/algo/order` |
+| [getMultiAssetAlgoOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2661) | :closed_lock_with_key:  | GET | `/v5/algo/order/opens` |
+| [getMultiAssetAlgoOrderHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2670) | :closed_lock_with_key:  | GET | `/v5/algo/order/history` |
+| [getMultiAssetPositions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2688) | :closed_lock_with_key:  | GET | `/v5/trade/position/opens` |
+| [getMultiAssetLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2700) | :closed_lock_with_key:  | GET | `/v5/position/lever` |
+| [updateMultiAssetLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2712) | :closed_lock_with_key:  | POST | `/v5/position/lever` |
+| [getMultiAssetPositionMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2724) | :closed_lock_with_key:  | GET | `/v5/position/mode` |
+| [updateMultiAssetPositionMode()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2736) | :closed_lock_with_key:  | POST | `/v5/position/mode` |
+| [getMultiAssetRiskLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2748) | :closed_lock_with_key:  | GET | `/v5/position/risk/limit` |
+| [getMultiAssetRiskLimitTiers()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2760) | :closed_lock_with_key:  | GET | `/v5/position/risk/limit_tier` |
+| [adjustMultiAssetMargin()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2773) | :closed_lock_with_key:  | POST | `/v5/position/margin` |
+| [getMultiAssetFundingRateHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2791) |  | GET | `/v5/market/funding_rate_history` |
+| [getMultiAssetMarketRiskLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2802) | :closed_lock_with_key:  | GET | `/v5/market/risk/limit` |
+| [getMultiAssetFeeCurrencies()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2814) | :closed_lock_with_key:  | GET | `/v5/market/assets_deduction_currency` |
+| [getMultiAssetCollateralAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2826) | :closed_lock_with_key:  | GET | `/v5/market/multi_assets_margin` |
+| [getCoinMDeliveryAdjustFactor()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2843) |  | GET | `/api/v1/contract_adjustfactor` |
+| [getCoinMDeliveryHistoricalOpenInterest()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2854) |  | GET | `/api/v1/contract_his_open_interest` |
+| [getCoinMDeliveryTieredMargin()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2865) |  | GET | `/api/v1/contract_ladder_margin` |
+| [getCoinMDeliveryAccountRatio()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2876) |  | GET | `/api/v1/contract_elite_account_ratio` |
+| [getCoinMDeliveryPositionRatio()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2888) |  | GET | `/api/v1/contract_elite_position_ratio` |
+| [getCoinMDeliveryLiquidationOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2900) |  | GET | `/api/v3/contract_liquidation_orders` |
+| [getCoinMDeliverySettlementRecords()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2911) |  | GET | `/api/v1/contract_settlement_records` |
+| [getCoinMDeliveryRiskReserveBalance()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2922) |  | GET | `/v1/insurance_fund_info` |
+| [getCoinMDeliveryRiskReserveHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2933) |  | GET | `/v1/insurance_fund_history` |
+| [getCoinMDeliveryContractLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2944) |  | GET | `/api/v1/contract_price_limit` |
+| [getCoinMDeliveryOpenInterest()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2955) |  | GET | `/api/v1/contract_open_interest` |
+| [getCoinMDeliveryDeliveryPrice()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2968) |  | GET | `/api/v1/contract_delivery_price` |
+| [getCoinMDeliveryEstimatedSettlementPrice()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2979) |  | GET | `/api/v1/contract_estimated_settlement_price` |
+| [getCoinMDeliverySystemStatus()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L2992) |  | GET | `/api/v1/contract_api_state` |
+| [getCoinMDeliveryContractInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3003) |  | GET | `/api/v1/contract_contract_info` |
+| [getCoinMDeliveryIndexPrice()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3014) |  | GET | `/api/v1/contract_index` |
+| [getCoinMDeliveryIndexConstituents()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3025) |  | GET | `/api/market/contract_constituents` |
+| [getCoinMDeliveryContractElements()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3036) |  | GET | `/api/v1/contract_query_elements` |
+| [getCoinMDeliveryMarketDepth()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3053) |  | GET | `/market/depth` |
+| [getCoinMDeliveryMarketBbo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3065) |  | GET | `/market/bbo` |
+| [getCoinMDeliveryKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3076) |  | GET | `/market/history/kline` |
+| [getCoinMDeliveryMarkKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3087) |  | GET | `/index/market/history/mark_price_kline` |
+| [getCoinMDeliveryTicker()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3098) |  | GET | `/market/detail/merged` |
+| [getCoinMDeliveryTickers()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3109) |  | GET | `/v2/market/detail/batch_merged` |
+| [getCoinMDeliveryLastTrade()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3120) |  | GET | `/market/trade` |
+| [getCoinMDeliveryTradeHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3131) |  | GET | `/market/history/trade` |
+| [getCoinMDeliveryIndexKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3143) |  | GET | `/index/market/history/index` |
+| [getCoinMDeliveryBasisData()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3154) |  | GET | `/index/market/history/basis` |
+| [getCoinMDeliveryAssetValuation()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3171) | :closed_lock_with_key:  | POST | `/api/v1/contract_balance_valuation` |
+| [getCoinMDeliveryAccountInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3184) | :closed_lock_with_key:  | POST | `/api/v1/contract_account_info` |
+| [getCoinMDeliveryPositionInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3197) | :closed_lock_with_key:  | POST | `/api/v1/contract_position_info` |
+| [updateCoinMDeliverySubPermissions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3210) | :closed_lock_with_key:  | POST | `/api/v1/contract_sub_auth` |
+| [getCoinMDeliverySubPermissions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3224) | :closed_lock_with_key:  | GET | `/api/v1/contract_sub_auth_list` |
+| [getCoinMDeliverySubAccounts()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3235) | :closed_lock_with_key:  | POST | `/api/v1/contract_sub_account_list` |
+| [getCoinMDeliverySubAccountsAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3248) | :closed_lock_with_key:  | POST | `/api/v1/contract_sub_account_info_list` |
+| [getCoinMDeliverySubAccountAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3261) | :closed_lock_with_key:  | POST | `/api/v1/contract_sub_account_info` |
+| [getCoinMDeliverySubPositionInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3275) | :closed_lock_with_key:  | POST | `/api/v1/contract_sub_position_info` |
+| [getCoinMDeliveryFinancialRecords()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3289) | :closed_lock_with_key:  | POST | `/api/v3/contract_financial_record` |
+| [getCoinMDeliveryFinancialRecordsExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3302) | :closed_lock_with_key:  | POST | `/api/v3/contract_financial_record_exact` |
+| [getCoinMDeliveryUserSettlementRecords()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3315) | :closed_lock_with_key:  | POST | `/api/v1/contract_user_settlement_records` |
+| [getCoinMDeliveryOrderLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3330) | :closed_lock_with_key:  | POST | `/api/v1/contract_order_limit` |
+| [getCoinMDeliveryFee()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3343) | :closed_lock_with_key:  | POST | `/api/v1/contract_fee` |
+| [getCoinMDeliveryTransferLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3356) | :closed_lock_with_key:  | POST | `/api/v1/contract_transfer_limit` |
+| [getCoinMDeliveryPositionLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3369) | :closed_lock_with_key:  | POST | `/api/v1/contract_position_limit` |
+| [getCoinMDeliveryAccountFull()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3382) | :closed_lock_with_key:  | POST | `/api/v1/contract_account_position_info` |
+| [transferCoinMDeliveryMasterSub()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3395) | :closed_lock_with_key:  | POST | `/api/v1/contract_master_sub_transfer` |
+| [getCoinMDeliveryMasterSubTransfers()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3408) | :closed_lock_with_key:  | POST | `/api/v1/contract_master_sub_transfer_record` |
+| [getCoinMDeliveryApiStatus()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3421) | :closed_lock_with_key:  | GET | `/api/v1/contract_api_trading_status` |
+| [getCoinMDeliveryAvailableLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3432) | :closed_lock_with_key:  | POST | `/api/v1/contract_available_level_rate` |
+| [setCoinMDeliveryCancelAfter()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3451) | :closed_lock_with_key:  | POST | `/api/v1/contract-cancel-after` |
+| [submitCoinMDeliveryOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3465) | :closed_lock_with_key:  | POST | `/api/v1/contract_order` |
+| [submitCoinMDeliveryBatchOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3478) | :closed_lock_with_key:  | POST | `/api/v1/contract_batchorder` |
+| [cancelCoinMDeliveryOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3491) | :closed_lock_with_key:  | POST | `/api/v1/contract_cancel` |
+| [cancelCoinMDeliveryAllOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3504) | :closed_lock_with_key:  | POST | `/api/v1/contract_cancelall` |
+| [updateCoinMDeliveryLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3517) | :closed_lock_with_key:  | POST | `/api/v1/contract_switch_lever_rate` |
+| [getCoinMDeliveryOrderInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3531) | :closed_lock_with_key:  | POST | `/api/v1/contract_order_info` |
+| [getCoinMDeliveryOrderDetail()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3544) | :closed_lock_with_key:  | POST | `/api/v1/contract_order_detail` |
+| [getCoinMDeliveryOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3557) | :closed_lock_with_key:  | POST | `/api/v1/contract_openorders` |
+| [getCoinMDeliveryHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3570) | :closed_lock_with_key:  | POST | `/api/v3/contract_hisorders` |
+| [getCoinMDeliveryHistoryOrdersExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3583) | :closed_lock_with_key:  | POST | `/api/v3/contract_hisorders_exact` |
+| [getCoinMDeliveryFills()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3596) | :closed_lock_with_key:  | POST | `/api/v3/contract_matchresults` |
+| [getCoinMDeliveryFillsExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3609) | :closed_lock_with_key:  | POST | `/api/v3/contract_matchresults_exact` |
+| [submitCoinMDeliveryLightningCloseOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3622) | :closed_lock_with_key:  | POST | `/api/v1/lightning_close_position` |
+| [submitCoinMDeliveryTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3641) | :closed_lock_with_key:  | POST | `/api/v1/contract_trigger_order` |
+| [cancelCoinMDeliveryTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3654) | :closed_lock_with_key:  | POST | `/api/v1/contract_trigger_cancel` |
+| [cancelCoinMDeliveryAllTriggerOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3668) | :closed_lock_with_key:  | POST | `/api/v1/contract_trigger_cancelall` |
+| [getCoinMDeliveryTriggerOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3681) | :closed_lock_with_key:  | POST | `/api/v1/contract_trigger_openorders` |
+| [getCoinMDeliveryTriggerHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3694) | :closed_lock_with_key:  | POST | `/api/v1/contract_trigger_hisorders` |
+| [submitCoinMDeliveryTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3707) | :closed_lock_with_key:  | POST | `/api/v1/contract_tpsl_order` |
+| [cancelCoinMDeliveryTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3720) | :closed_lock_with_key:  | POST | `/api/v1/contract_tpsl_cancel` |
+| [cancelCoinMDeliveryAllTpslOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3734) | :closed_lock_with_key:  | POST | `/api/v1/contract_tpsl_cancelall` |
+| [getCoinMDeliveryTpslOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3747) | :closed_lock_with_key:  | POST | `/api/v1/contract_tpsl_openorders` |
+| [getCoinMDeliveryTpslHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3760) | :closed_lock_with_key:  | POST | `/api/v1/contract_tpsl_hisorders` |
+| [getCoinMDeliveryRelationTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3773) | :closed_lock_with_key:  | POST | `/api/v1/contract_relation_tpsl_order` |
+| [submitCoinMDeliveryTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3787) | :closed_lock_with_key:  | POST | `/api/v1/contract_track_order` |
+| [cancelCoinMDeliveryTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3800) | :closed_lock_with_key:  | POST | `/api/v1/contract_track_cancel` |
+| [cancelCoinMDeliveryAllTrailingOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3814) | :closed_lock_with_key:  | POST | `/api/v1/contract_track_cancelall` |
+| [getCoinMDeliveryTrailingOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3827) | :closed_lock_with_key:  | POST | `/api/v1/contract_track_openorders` |
+| [getCoinMDeliveryTrailingHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3840) | :closed_lock_with_key:  | POST | `/api/v1/contract_track_hisorders` |
+| [getCoinMPerpAdjustFactor()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3861) |  | GET | `/swap-api/v1/swap_adjustfactor` |
+| [getCoinMPerpHistoricalOpenInterest()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3872) |  | GET | `/swap-api/v1/swap_his_open_interest` |
+| [getCoinMPerpTieredMargin()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3883) |  | GET | `/swap-api/v1/swap_ladder_margin` |
+| [getCoinMPerpAccountRatio()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3894) |  | GET | `/swap-api/v1/swap_elite_account_ratio` |
+| [getCoinMPerpPositionRatio()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3906) |  | GET | `/swap-api/v1/swap_elite_position_ratio` |
+| [getCoinMPerpEstimatedSettlementPrice()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3918) |  | GET | `/swap-api/v1/swap_estimated_settlement_price` |
+| [getCoinMPerpSystemStatus()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3931) |  | GET | `/swap-api/v1/swap_api_state` |
+| [getCoinMPerpFundingRate()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3942) |  | GET | `/swap-api/v1/swap_funding_rate` |
+| [getCoinMPerpFundingRates()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3953) |  | GET | `/swap-api/v1/swap_batch_funding_rate` |
+| [getCoinMPerpHistoricalFundingRate()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3964) |  | GET | `/swap-api/v1/swap_historical_funding_rate` |
+| [getCoinMPerpLiquidationOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3977) |  | GET | `/swap-api/v3/swap_liquidation_orders` |
+| [getCoinMPerpSettlementRecords()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3988) |  | GET | `/swap-api/v1/swap_settlement_records` |
+| [getCoinMPerpContractInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L3999) |  | GET | `/swap-api/v1/swap_contract_info` |
+| [getCoinMPerpIndexPrice()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4010) |  | GET | `/swap-api/v1/swap_index` |
+| [getCoinMPerpContractElements()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4021) |  | GET | `/swap-api/v1/swap_query_elements` |
+| [getCoinMPerpIndexConstituents()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4032) |  | GET | `/swap-api/market/swap_constituents` |
+| [getCoinMPerpRiskReserveBalance()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4043) |  | GET | `/v1/insurance_fund_info` |
+| [getCoinMPerpRiskReserveHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4054) |  | GET | `/v1/insurance_fund_history` |
+| [getCoinMPerpPriceLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4065) |  | GET | `/swap-api/v1/swap_price_limit` |
+| [getCoinMPerpOpenInterest()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4076) |  | GET | `/swap-api/v1/swap_open_interest` |
+| [getCoinMPerpMarketDepth()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4093) |  | GET | `/swap-ex/market/depth` |
+| [getCoinMPerpMarketBbo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4105) |  | GET | `/swap-ex/market/bbo` |
+| [getCoinMPerpKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4116) |  | GET | `/swap-ex/market/history/kline` |
+| [getCoinMPerpMarkKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4127) |  | GET | `/index/market/history/swap_mark_price_kline` |
+| [getCoinMPerpTicker()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4138) |  | GET | `/swap-ex/market/detail/merged` |
+| [getCoinMPerpTickers()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4149) |  | GET | `/v2/swap-ex/market/detail/batch_merged` |
+| [getCoinMPerpLastTrade()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4160) |  | GET | `/swap-ex/market/trade` |
+| [getCoinMPerpTradeHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4171) |  | GET | `/swap-ex/market/history/trade` |
+| [getCoinMPerpPremiumIndexKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4183) |  | GET | `/index/market/history/swap_premium_index_kline` |
+| [getCoinMPerpFundingRateKlines()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4194) |  | GET | `/index/market/history/swap_estimated_rate_kline` |
+| [getCoinMPerpBasisData()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4205) |  | GET | `/index/market/history/swap_basis` |
+| [getCoinMPerpAssetValuation()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4222) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_balance_valuation` |
+| [getCoinMPerpAccountInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4235) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_account_info` |
+| [getCoinMPerpPositionInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4248) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_position_info` |
+| [getCoinMPerpAccountFull()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4261) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_account_position_info` |
+| [getCoinMPerpSubPermissions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4274) | :closed_lock_with_key:  | GET | `/swap-api/v1/swap_sub_auth_list` |
+| [updateCoinMPerpSubPermissions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4285) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_sub_auth` |
+| [getCoinMPerpSubAccounts()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4299) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_sub_account_list` |
+| [getCoinMPerpSubAccountsAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4312) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_sub_account_info_list` |
+| [getCoinMPerpSubAccountAssets()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4325) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_sub_account_info` |
+| [getCoinMPerpSubPositions()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4339) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_sub_position_info` |
+| [getCoinMPerpFinancialRecords()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4353) | :closed_lock_with_key:  | POST | `/swap-api/v3/swap_financial_record` |
+| [getCoinMPerpFinancialRecordsExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4366) | :closed_lock_with_key:  | POST | `/swap-api/v3/swap_financial_record_exact` |
+| [getCoinMPerpAvailableLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4379) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_available_level_rate` |
+| [getCoinMPerpOrderLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4392) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_order_limit` |
+| [getCoinMPerpFee()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4405) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_fee` |
+| [getCoinMPerpTransferLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4418) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_transfer_limit` |
+| [getCoinMPerpPositionLimit()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4431) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_position_limit` |
+| [transferCoinMPerpMasterSub()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4444) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_master_sub_transfer` |
+| [getCoinMPerpMasterSubTransfers()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4457) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_master_sub_transfer_record` |
+| [getCoinMPerpApiStatus()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4470) | :closed_lock_with_key:  | GET | `/swap-api/v1/swap_api_trading_status` |
+| [setCoinMPerpCancelAfter()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4487) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap-cancel-after` |
+| [submitCoinMPerpOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4501) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_order` |
+| [submitCoinMPerpBatchOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4514) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_batchorder` |
+| [cancelCoinMPerpOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4527) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_cancel` |
+| [cancelCoinMPerpAllOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4540) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_cancelall` |
+| [updateCoinMPerpLeverage()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4553) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_switch_lever_rate` |
+| [getCoinMPerpOrderInfo()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4567) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_order_info` |
+| [getCoinMPerpOrderDetail()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4580) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_order_detail` |
+| [getCoinMPerpOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4593) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_openorders` |
+| [getCoinMPerpHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4606) | :closed_lock_with_key:  | POST | `/swap-api/v3/swap_hisorders` |
+| [getCoinMPerpHistoryOrdersExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4619) | :closed_lock_with_key:  | POST | `/swap-api/v3/swap_hisorders_exact` |
+| [getCoinMPerpFills()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4632) | :closed_lock_with_key:  | POST | `/swap-api/v3/swap_matchresults` |
+| [getCoinMPerpFillsExact()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4645) | :closed_lock_with_key:  | POST | `/swap-api/v3/swap_matchresults_exact` |
+| [submitCoinMPerpLightningCloseOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4658) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_lightning_close_position` |
+| [submitCoinMPerpTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4677) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_trigger_order` |
+| [cancelCoinMPerpTriggerOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4690) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_trigger_cancel` |
+| [cancelCoinMPerpAllTriggerOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4704) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_trigger_cancelall` |
+| [getCoinMPerpTriggerOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4717) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_trigger_openorders` |
+| [getCoinMPerpTriggerHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4730) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_trigger_hisorders` |
+| [submitCoinMPerpTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4743) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_tpsl_order` |
+| [cancelCoinMPerpTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4756) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_tpsl_cancel` |
+| [cancelCoinMPerpAllTpslOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4769) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_tpsl_cancelall` |
+| [getCoinMPerpTpslOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4782) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_tpsl_openorders` |
+| [getCoinMPerpTpslHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4795) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_tpsl_hisorders` |
+| [getCoinMPerpRelationTpslOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4808) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_relation_tpsl_order` |
+| [submitCoinMPerpTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4821) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_track_order` |
+| [cancelCoinMPerpTrailingOrder()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4834) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_track_cancel` |
+| [cancelCoinMPerpAllTrailingOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4847) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_track_cancelall` |
+| [getCoinMPerpTrailingOpenOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4860) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_track_openorders` |
+| [getCoinMPerpTrailingHistoryOrders()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4873) | :closed_lock_with_key:  | POST | `/swap-api/v1/swap_track_hisorders` |
+| [getCopyTraderInstruments()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4892) | :closed_lock_with_key:  | GET | `/api/v6/copyTrading/trader/instruments` |
+| [getCopyTraderStatistics()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4903) | :closed_lock_with_key:  | GET | `/api/v6/copyTrading/trader/statistics` |
+| [getCopyTraderProfitSharingHistory()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4914) | :closed_lock_with_key:  | GET | `/api/v6/copyTrading/trader/profit-sharing-history` |
+| [getCopyTraderProfitSharingHistorySummary()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4930) | :closed_lock_with_key:  | GET | `/api/v6/copyTrading/trader/profit-sharing-history-summary` |
+| [getCopyTraderUPNLSharingSummary()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4946) | :closed_lock_with_key:  | GET | `/api/v6/copyTrading/trader/unrealized-profit-sharing-summary` |
+| [getCopyTraderFollowers()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4962) | :closed_lock_with_key:  | GET | `/api/v6/copyTrading/trader/followers` |
+| [removeCopyTraderFollower()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4973) | :closed_lock_with_key:  | POST | `/api/v6/copyTrading/trader/follower` |
+| [submitCopyTraderTransfer()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L4988) | :closed_lock_with_key:  | POST | `/api/v6/copyTrading/trader/transfer` |
+| [updateCopyTraderFollowerSettings()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L5001) | :closed_lock_with_key:  | POST | `/api/v6/copyTrading/trader/follower-settings` |
+| [getCopyTraderConfig()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L5014) | :closed_lock_with_key:  | POST | `/api/v6/copyTrading/trader/config` |
+| [createCopyTraderApikey()](https://github.com/sieblyio/htx-api/blob/main/src/FuturesClient.ts#L5027) | :closed_lock_with_key:  | POST | `/api/v6/copyTrading/trader/apikey` |
 
 # WebsocketAPIClient.ts
 
